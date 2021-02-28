@@ -1,0 +1,6 @@
+
+@Wishlist
+Scenario: Search for Wishlist                       [90m# src/test/resource/HomePage.feature:20[0m
+  [32mGiven [0m[32muser is on the homepage of Argoes Website[0m   [90m# BDD.StepDefinitions.IndividualProductSearchSteps.user_is_on_the_homepage_of_argoes_website()[0m
+  [32mWhen [0m[32muser clicks on Wishlist button[0m               [90m# BDD.StepDefinitions.WishlistFunctionalitySteps.user_clicks_on_wishlist_button()[0m
+  [32mThen [0m[32muser should be able to see his Wishlist page[0m [90m# BDD.StepDefinitions.WishlistFunctionalitySteps.user_should_be_able_to_see_his_wishlist_page()[0m

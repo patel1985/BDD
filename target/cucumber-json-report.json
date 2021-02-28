@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-28T19:14:10.757Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12043000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BDD.BaseClassPackege.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Search for Wishlist",
+        "description": "",
+        "id": "homepage-functionality;search-for-wishlist",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BDD.BaseClassPackege.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is on the homepage of Argoes Website",
+            "match": {
+              "location": "BDD.StepDefinitions.IndividualProductSearchSteps.user_is_on_the_homepage_of_argoes_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8296000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on Wishlist button",
+            "match": {
+              "location": "BDD.StepDefinitions.WishlistFunctionalitySteps.user_clicks_on_wishlist_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user should be able to see his Wishlist page",
+            "match": {
+              "location": "BDD.StepDefinitions.WishlistFunctionalitySteps.user_should_be_able_to_see_his_wishlist_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Wishlist"
+          }
+        ]
+      }
+    ],
+    "name": "HomePage Functionality",
+    "description": "",
+    "id": "homepage-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resource/HomePage.feature",
+    "tags": []
+  }
+]
