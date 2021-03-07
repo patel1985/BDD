@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="23.14">
-<testcase classname="HomePage Functionality" name="Search for Wishlist" time="20.809">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="85.875">
+<testcase classname="HomePage Functionality" name="Search for Wishlist" time="85.294">
 <system-out><![CDATA[Given user is on the homepage of Argoes Website.............................passed
 When user clicks on Wishlist button.........................................passed
 Then user should be able to see his Wishlist page...........................passed

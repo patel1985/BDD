@@ -29,7 +29,7 @@ public class DriverFactory {
     }
 
     public void closebrowser(){
-       // driver.quit();
+        driver.quit();
     }
 
     public void sleep(int ms){
