@@ -19,6 +19,7 @@ public class RunCukeTest {
 }
 
 //Dev Code
+<<<<<<< HEAD
 //pushing code in to my own branch
 //pushing code into dev
 
@@ -29,3 +30,10 @@ public class RunCukeTest {
 //chirag patel
 
 //chirag b
+=======
+
+//pushing code in to my own branch
+=======
+//pushing code into dev
+
+>>>>>>> b1770c71f090c2c3aa114b5d453998d71654889f
